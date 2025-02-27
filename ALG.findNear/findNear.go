@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"math"
 	"os"
-	"slices"
 	"strconv"
 	"strings"
 )
@@ -28,7 +27,6 @@ func main() {
 
 		arr[i] = num
 	}
-	slices.Sort(arr)
 
 	maxX := math.MaxInt
 	newX, _ := strconv.Atoi(str[0])
